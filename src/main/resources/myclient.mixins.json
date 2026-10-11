@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.example.myclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraMixin",
+    "EntityMixin",
+    "KeyboardInputMixin",
+    "EntityRenderDispatcherMixin",
+    "ParticleEngineMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
